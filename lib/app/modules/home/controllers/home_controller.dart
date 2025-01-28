@@ -23,12 +23,13 @@ class HomeController extends GetxController {
     }
     isLandscape.toggle();
   }
-@override
-  void onInit() {
 
+  @override
+  void onInit() {
     super.onInit();
     updateQuote();
   }
+
 // List of motivational quotes
   final List<String> quotes = [
     "Believe in yourself!",
