@@ -10,7 +10,7 @@ void main() {
 
   runApp(
     GetMaterialApp(
-      title: "Application",
+      title: "Pomodoro",
       initialRoute: AppPages.INITIAL,
       getPages: AppPages.routes,
     ),
