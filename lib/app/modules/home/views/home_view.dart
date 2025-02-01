@@ -123,7 +123,7 @@ class HomeView extends GetView<HomeController> {
                   color: Colors.yellow,
                   fontFamily: 'digital',
                 ),
-                text: controller.currentQuote.value + "                      ",
+                text: "${controller.currentQuote.value}                      ",
               ),
             ),
           )
